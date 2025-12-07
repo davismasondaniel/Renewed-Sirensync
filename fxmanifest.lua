@@ -11,6 +11,6 @@ shared_script '@ox_lib/init.lua'
 
 client_script 'client.lua'
 
-server_script 'server.lua'
+client_script 'config.lua'
 
-file 'Config.lua'
+server_script 'server.lua'
